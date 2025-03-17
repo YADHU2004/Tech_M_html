@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+</head>
+<body>
+    <h2>Workshop Registration</h2>
+    <p>Fill in the details below to register for the workshop.</p>
+    <form action="#" method="post">
+        <!-- Name Field -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <!-- Phone Field -->
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+        <!-- Session Preference Dropdown -->
+        <label for="session">Session Preference:</label>
+        <select id="session" name="session">
+            <option value="morning">Morning Session</option>
+            <option value="afternoon">Afternoon Session</option>
+        </select>
+        <br><br>
+        <!-- Terms & Conditions Checkbox -->
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms & conditions</label>
+        <br><br>
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
